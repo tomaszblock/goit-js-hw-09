@@ -19,7 +19,7 @@ skonfigurowania dodatkowych opcji [zobacz dokumentację](https://parceljs.org/)
    [http://localhost:1234](http://localhost:1234). Ta strona będzie się
    automatycznie odświeżać po dokonaniu zmian w plikach projektu.
 
-## Pliki i foldery
+## Pliki i folderyy
 
 - Wszystkie partiale plików stylów powinny znajdować się w folderze `src/sass` i
   importować się w pliki stylów stron. Na przykład dla `index.html` plik stylów
