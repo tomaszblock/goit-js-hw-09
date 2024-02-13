@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector('[name="delay"]'),n=document.querySelector('[name="step"]'),t=document.querySelector('[name="amount"]');document.querySelector(".form").addEventListener("submit",(function(o,r,a){o.preventDefault(),parseInt(e.value),parseInt(n.value);var u=parseInt(t.value);o.preventDefault();for(var c=1;c<=u;c++)new Promise((function(e,n){setTimeout((function(){Math.random()>.3?console.log("tak"):console.log("nie")}),0)}))}))}();
-//# sourceMappingURL=03-promises.4c7a0d96.js.map
