@@ -2,14 +2,13 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 
-const flatpickr = require('flatpickr');
 const startBtn = document.querySelector('[data-start]');
-const inputFlat = document.querySelector('[id="datetime-picker"]');
+const inputFlat = document.querySelector('#datetime-picker');
 const spanSeconds = document.querySelector('[data-seconds]');
 const spanMinutes = document.querySelector('[data-minutes]');
 const spanHours = document.querySelector('[data-hours]');
 const spanDays = document.querySelector('[data-days]');
-const timerDiv = (startBtn.disabled = true);
+startBtn.disabled = true;
 let selectedDate = null;
 let timerId = null;
 
