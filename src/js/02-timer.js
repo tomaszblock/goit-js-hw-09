@@ -54,6 +54,9 @@ flatpickr(inputFlat, options);
 startBtn.addEventListener('click', () => {
   timerId = setInterval(() => {
     startBtn.disabled = true;
+    startBtn.style.display = 'none';
+    inputFlat.style.display = 'none';
+
     const date = new Date();
     let timer = convertMs(selectedDate.getTime() - date.getTime());
     if (

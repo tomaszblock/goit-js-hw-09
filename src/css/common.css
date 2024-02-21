@@ -10,6 +10,14 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image: url('https://cdn.wccftech.com/wp-content/uploads/2023/10/myth-of-empires-HD-scaled.jpg');
+}
+
+.myth {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+  color: black;
 }
 
 img {
@@ -19,7 +27,9 @@ img {
 
 .timer {
   display: flex;
-  gap: 10px;
+  gap: 70px;
+  justify-content: center;
+  color: black;
 }
 
 .field {
@@ -28,11 +38,13 @@ img {
 }
 
 .value {
-  font-size: 40px;
+  font-size: 130px;
+  color: black;
 }
 
 .label {
-  font-size: 15px;
+  font-size: 45px;
   display: flex;
   justify-content: center;
+  color: black;
 }
